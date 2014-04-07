@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/user-content.css': 'scss/user-content.scss'
+          'user-content.css': 'scss/user-content.scss'
         }
       }
     },
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'css/user-content.css': 'css/user-content.css'
+          'user-content.css': 'user-content.css'
         }
       }
     },
@@ -43,8 +43,8 @@ module.exports = function(grunt) {
         report: 'min'
       },
       dist: {
-        src: 'css/user-content.css',
-        dest: 'css/user-content.min.css'
+        src: 'user-content.css',
+        dest: 'user-content.min.css'
       }
     },
 
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
         },
         files: {
           src: [
-            'css/*.css'
+            '*.css'
           ]
         }
       }
