@@ -88,6 +88,25 @@ And a nested list:
   * Donatello
   * Raphael
 
+And nested ordered lists
+
+1. Turtles
+  1. more turtles
+  2. even more turtles
+    1. have you seen enough turtles yet?
+2. Elephants
+  1. Elephants are not stackable (for obvious reasons)
+
+And an ordered list inside an unordered list
+
+* Jackson 5
+  1. I'll Be There
+  2. ABC
+  3. Ain't No Sunshine
+* Salt-n-Pepa
+  1. Push It
+  2. Shoop
+
 Definition lists can be used with HTML syntax. Definition terms are bold and italic.
 
 <dl>
