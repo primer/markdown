@@ -640,18 +640,12 @@ $margin: 16px;
   del,
   strike,
   s {
-    position: relative;
     text-decoration: none;
-
-    &:before {
-      position: absolute;
-      right: 0;
-      bottom: 45%;
-      left: 0;
-      content: "";
-      border-bottom: 1px solid #333;
-    }
+    background: linear-gradient(#333, #333) repeat-x left center;
+    background-size: 1px 1px;
   }
+
+
 
   // Code tags within code blocks (<pre>s)
   pre > code {
