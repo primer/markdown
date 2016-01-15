@@ -641,8 +641,8 @@ $margin: 16px;
   strike,
   s {
     text-decoration: none;
-    background: linear-gradient(#333, #333) repeat-x left center;
-    background-size: 1px 1px;
+    background: linear-gradient(#333, #333) repeat-x left 56%;
+    background-size: 1px .1em;
   }
 
   // Code tags within code blocks (<pre>s)
