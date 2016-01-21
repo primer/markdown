@@ -254,7 +254,7 @@ $margin: 16px;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
-  
+
   // Clearfix on the markdown body
   &:before {
     display: table;
@@ -639,7 +639,13 @@ $margin: 16px;
     br { display: none; }
   }
 
-  del code { text-decoration: inherit; }
+  del,
+  strike,
+  s {
+    text-decoration: none;
+    background: linear-gradient(#333, #333) repeat-x left 56%;
+    background-size: 1px .1em;
+  }
 
   // Code tags within code blocks (<pre>s)
   pre > code {
