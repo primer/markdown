@@ -57,6 +57,12 @@ $margin: 16px;
       outline: none;
     }
   }
+  
+  @media print {
+    .anchor {
+      display: none;
+    }
+  }
 
   p,
   blockquote,
